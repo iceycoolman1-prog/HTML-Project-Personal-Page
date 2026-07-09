@@ -1,0 +1,146 @@
+body{
+    background-color: #343434;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    background-color: #000000;
+    width: fit-content;
+    height: fit-content;
+    color: #bb0000;
+    border: 3px double #bb0000;
+    border-radius: 5px;
+    padding: 2px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff0000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+ul{
+    list-style: none;
+    background-color: #2c0000;
+    width: 550px;
+    color: #ff0000;
+    border: 2px double #bb0000;
+    border-radius: 5px;
+    padding: 2px;
+}
+h4{
+    background-color: #000000;
+    width: fit-content;
+    height: fit-content;
+    color: #bb0000;
+    border: 3px double #bb0000;
+    border-radius: 5px;
+    padding: 2px;
+}
+.card{
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container{
+    padding: 2px 16px;
+}
+.about{
+    display:flex;
+}
+.Intro{
+    background-color: #000000;
+    width: 200px;
+    height: fit-content;
+    margin-top: 150px;
+    margin-block: 75px;
+    color: #bb0000;
+    border: 3px double #bb0000;
+    border-radius: 5px;
+    padding: 2px;
+}
+.interests{
+    width: fit-content;
+    margin-left:10px;
+}
+.media{
+    width: fit-content;
+    margin-left:10px;
+}
+.goals{
+    margin-top:0px;
+    margin-left:55px;
+}
+.intention{
+    background-color: #000000;
+    width: 200px;
+    height: fit-content;
+    margin-top:75px;
+    color: #bb0000;
+    border: 3px double #bb0000;
+    border-radius: 5px;
+    padding: 2px;
+}
+.facts{
+    margin-top: 55px;
+}
+.ach{
+    display: flex;
+    width: fit-content;
+}
+.beginning{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 320px;  
+}
+.dnd{
+    border: 5px outset #bb0000;
+    border-radius: 5px;
+    padding: 0px;
+} 
+.overture{
+    width: fit-content;
+    height: fit-content;
+}
+.theater{
+    border: 5px outset #bb0000;
+    border-radius: 5px;
+    padding: 0px;
+}
+.steam{
+    width: fit-content;
+    height: fit-content;
+    border: 5px outset #bb0000;
+    border-radius: 5px;
+    padding: 2px;
+} 
+.SM{
+    justify-content: center;
+}
+.insta button{
+    display: grid;
+    height: 50px;
+    width: 50px;
+}
+a{
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    color:#360000
+
+}
+a:link{
+    color: black;
+    background-color: #bb0000;
+}
+a:visited{
+    color: maroon
+    background-color: #bb0000;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+    background-color: #bb0000;
+}
