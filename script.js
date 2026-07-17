@@ -13,6 +13,12 @@ const disableDarkmode = () => {
 
 if(darkmode === "active") enableDarkmode()
 
+const toggleButton = document.getElementById('theme-switch')
+
+toggleButton.addEventListener('click', () => {
+  document.documentElement.classList.toggle('darkmode')
+})
+
 themeSwitch.addEventListener("click", () => {
     darkmode = localStorage.getItem('darkmode')
     darkmode !== "active" ? enableDarkmode() : disableDarkmode()
